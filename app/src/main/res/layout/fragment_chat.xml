@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.ChatFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:ignore="InefficientWeight">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#EDEDED"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/round_corners"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/message"
+            android:inputType="text|textLongMessage"
+            android:minHeight="48dp"
+            android:paddingStart="5dp"
+            android:textAlignment="textStart"
+            tools:ignore="DuplicateSpeakableTextCheck,NestedWeights,RtlSymmetry,VisualLintTextFieldSize" />
+
+        <TextView
+            android:id="@+id/sendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="@color/colorPrimary"
+            android:elevation="2dp"
+            android:fontFamily="@font/fa_regular"
+            android:padding="13dp"
+            android:text="paper-plane"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+    </LinearLayout>
+
+
+</LinearLayout>

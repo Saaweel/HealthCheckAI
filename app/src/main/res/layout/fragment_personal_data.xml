@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.PersonalDataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_data"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="#EDEDED"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/basic"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/pd_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/male"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/pd_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/female"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/pd_age"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+            <EditText
+                android:id="@+id/pd_height"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/height"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+            <EditText
+                android:id="@+id/pd_weight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/weight"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:minHeight="48dp"
+                android:text="@string/save"
+                tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="#EDEDED"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/detailed"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/pd_heart_problems"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/heart_problems"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <CheckBox
+                    android:id="@+id/pd_diabetes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/diabetes"
+                    tools:ignore="VisualLintButtonSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <EditText
+                    android:id="@+id/add_allergy"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="5"
+                    android:autofillHints=""
+                    android:background="@drawable/round_corners"
+                    android:backgroundTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="@string/allergy"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textAlignment="center"
+                    tools:ignore="VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/send_add_allergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:elevation="2dp"
+                    android:fontFamily="@font/fa_regular"
+                    android:padding="10dp"
+                    android:text="plus"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    tools:ignore="HardcodedText,TextContrastCheck" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/allergy_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            <Button
+                android:id="@+id/send_detailed_pd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:minHeight="48dp"
+                android:text="@string/save"
+                tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck,TextContrastCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

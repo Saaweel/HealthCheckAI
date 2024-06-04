@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity">
+        <item>Sedentario (poco o ningún ejercicio)</item>
+        <item>Ligera actividad (ejercicio ligero/deportes 1-3 días/semana)</item>
+        <item>Moderadamente activo (ejercicio moderado/deportes 3-5 días/semana)</item>
+        <item>Muy activo (ejercicio intenso/deportes 6-7 días/semana)</item>
+        <item>Súper activo (ejercicio muy intenso y trabajo físico o entrenamiento 2 veces al día)</item>
+    </string-array>
+</resources>

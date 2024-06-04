@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        tools:ignore="InefficientWeight,UselessParent">
+
+        <FrameLayout
+            android:id="@+id/app1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_app1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/fa_regular"
+                android:gravity="center"
+                android:textSize="120sp"
+                android:textColor="#FFFFFF"
+                android:text="comment-dots"
+                android:rotation="20"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/app_title"
+                android:backgroundTint="#67A3D8"
+                android:gravity="center"
+                android:text="@string/chat"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_app2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/fa_regular"
+                android:gravity="center"
+                android:textSize="120sp"
+                android:textColor="#FFFFFF"
+                android:text="lightbulb"
+                android:rotation="20"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/app_title"
+                android:backgroundTint="#309C35"
+                android:gravity="center"
+                android:text="@string/tools"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_app3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/fa_regular"
+                android:gravity="center"
+                android:textSize="120sp"
+                android:textColor="#FFFFFF"
+                android:text="id-card"
+                android:rotation="20"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/app_title"
+                android:backgroundTint="#D29D36"
+                android:gravity="center"
+                android:text="@string/personal_data"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_app4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/fa_regular"
+                android:gravity="center"
+                android:textSize="120sp"
+                android:textColor="#FFFFFF"
+                android:text="sun"
+                android:rotation="15"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/app_title"
+                android:backgroundTint="#AD7FDA"
+                android:gravity="center"
+                android:text="@string/settings"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_app5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/fa_regular"
+                android:gravity="center"
+                android:textSize="120sp"
+                android:textColor="#FFFFFF"
+                android:text="circle-question"
+                android:rotation="20"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/app_title"
+                android:backgroundTint="#6B696A"
+                android:gravity="center"
+                android:text="@string/about"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </FrameLayout>
+    </GridLayout>
+</LinearLayout>

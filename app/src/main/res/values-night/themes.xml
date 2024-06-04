@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.HealthCheckAI.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#004266</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.HealthCheckAI</item>
+    </style>
+
+    <style name="Theme.HealthCheckAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+</resources>

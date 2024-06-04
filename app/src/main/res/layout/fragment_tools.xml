@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ToolsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="#EDEDED"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/imc_calculator"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/imc_height"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/height"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+            <EditText
+                android:id="@+id/imc_weight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/weight"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+            <Button
+                android:id="@+id/send_imc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:minHeight="48dp"
+                android:text="@string/calc"
+                tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/imc_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/imc_20_normal"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="#EDEDED"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/calorie_calculator"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/kcal_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:id="@+id/kcal_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/female" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/kcal_age"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/kcal_height"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/height"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/kcal_weight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/weight"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <Spinner
+                android:id="@+id/kcal_activity"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/send_kcal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:minHeight="48dp"
+                android:text="@string/calc"
+                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/kcal_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/_1500_cal_day"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
