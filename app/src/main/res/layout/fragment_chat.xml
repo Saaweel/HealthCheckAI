@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:background="#EDEDED"
+        android:background="@color/backgroundPrimary"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:padding="5dp">
@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:autofillHints=""
             android:background="@drawable/round_corners"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="@color/backgroundInput"
             android:ems="10"
             android:hint="@string/message"
             android:inputType="text|textLongMessage"

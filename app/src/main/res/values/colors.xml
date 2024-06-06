@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#73A5D2</color>
+    <color name="backgroundPrimary">#EDEDED</color>
+    <color name="backgroundInput">#FFFFFF</color>
 </resources>

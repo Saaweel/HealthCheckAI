@@ -18,7 +18,6 @@
             android:padding="5dp"
             android:text="@string/terms_and_conditions_1"
             android:textAlignment="center"
-            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -27,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -44,7 +43,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_3"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -53,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -70,7 +68,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_5"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -79,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -95,7 +92,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_7"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -104,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -121,7 +117,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_9"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -131,7 +126,6 @@
             android:padding="5dp"
             android:text="@string/terms_and_conditions_10"
             android:textAlignment="center"
-            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -140,7 +134,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -157,7 +151,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_13"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -166,7 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -183,7 +176,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_15"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -192,7 +184,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -209,7 +201,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_17"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -218,7 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -235,7 +226,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_19"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 
@@ -244,7 +234,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             android:padding="5dp">
@@ -261,7 +251,6 @@
                 android:layout_height="wrap_content"
                 android:padding="2dp"
                 android:text="@string/terms_and_conditions_21"
-                android:textColor="#616161"
                 tools:ignore="VisualLintLongText" />
         </LinearLayout>
 

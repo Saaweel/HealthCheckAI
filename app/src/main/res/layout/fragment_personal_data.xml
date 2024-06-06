@@ -17,7 +17,6 @@
             android:layout_height="wrap_content"
             android:text="@string/personal_data"
             android:textAlignment="center"
-            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -26,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             tools:ignore="UselessParent">
@@ -37,7 +36,6 @@
                 android:padding="5dp"
                 android:text="@string/basic"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -74,7 +72,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/age"
                 android:inputType="number"
@@ -92,7 +90,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/height"
                 android:inputType="number"
@@ -110,7 +108,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/weight"
                 android:inputType="number"
@@ -137,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             tools:ignore="UselessParent">
@@ -148,7 +146,6 @@
                 android:padding="5dp"
                 android:text="@string/detailed"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -194,7 +191,7 @@
                     android:layout_weight="5"
                     android:autofillHints=""
                     android:background="@drawable/round_corners"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="@color/backgroundInput"
                     android:ems="10"
                     android:hint="@string/allergy"
                     android:inputType="text"

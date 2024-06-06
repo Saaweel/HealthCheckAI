@@ -17,7 +17,6 @@
             android:layout_height="wrap_content"
             android:text="@string/settings"
             android:textAlignment="center"
-            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -26,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             tools:ignore="UselessParent">
@@ -37,7 +36,6 @@
                 android:padding="5dp"
                 android:text="@string/avatar"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -57,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical"
             tools:ignore="UselessParent">
@@ -68,7 +66,6 @@
                 android:padding="5dp"
                 android:text="@string/change_password"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -82,7 +79,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/old_password"
                 android:inputType="textPassword"
@@ -100,7 +97,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/password"
                 android:inputType="textPassword"
@@ -119,7 +116,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/confirm_password"
                 android:inputType="textPassword"

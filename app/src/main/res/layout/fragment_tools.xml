@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical">
 
@@ -27,7 +27,6 @@
                 android:padding="5dp"
                 android:text="@string/imc_calculator"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -41,7 +40,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/height"
                 android:inputType="number"
@@ -59,7 +58,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/weight"
                 android:inputType="number"
@@ -86,7 +85,6 @@
                 android:layout_marginBottom="10dp"
                 android:text="@string/imc_20_normal"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:visibility="gone" />
@@ -98,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round_corners"
-            android:backgroundTint="#EDEDED"
+            android:backgroundTint="@color/backgroundPrimary"
             android:elevation="5dp"
             android:orientation="vertical">
 
@@ -108,7 +106,6 @@
                 android:padding="5dp"
                 android:text="@string/calorie_calculator"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -143,7 +140,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/age"
                 android:inputType="number"
@@ -161,7 +158,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/height"
                 android:inputType="number"
@@ -179,7 +176,7 @@
                 android:layout_weight="1"
                 android:autofillHints=""
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:ems="10"
                 android:hint="@string/weight"
                 android:inputType="number"
@@ -195,7 +192,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/round_corners"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="@color/backgroundInput"
                 android:gravity="center"
                 android:textAlignment="center" />
 
@@ -218,7 +215,6 @@
                 android:layout_marginBottom="10dp"
                 android:text="@string/_1500_cal_day"
                 android:textAlignment="center"
-                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:visibility="gone" />
